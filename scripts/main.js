@@ -10,11 +10,11 @@ function flickerImage() {
 	toggleImage();
 	state++;
 	if (state < 50) {
-		setTimeout(flickerImage, 1500*Math.pow(0.8, state));
+		setTimeout(flickerImage, 1000*Math.pow(0.8, state));
 		console.log(state);
 	}
 }
 $().ready(function(){
 	$("#audio").get(0).play();
-	setTimeout(flickerImage, 1500);
+	setTimeout(flickerImage, 1000);
 });
