@@ -1,7 +1,7 @@
 function toggleImage() {
 	var image = $("#dr-racket-img");
 	if (image.attr("src") == "/findler.jpg")
-		image.attr("src","/findler-mask.jpg");
+		image.attr("src","/findler-mask.png");
 	else
 		image.attr("src","/findler.jpg");
 }
